@@ -1,0 +1,28 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+
+  "scripts": {
+    "devStart": "nodemon app.js"
+    
+  },
+  "author": "Priyansh",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "path": "^0.12.7",
+    "translate": "^1.4.1",
+    "uniqid": "^5.4.0",
+    "uuid": "^8.3.2"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  }
+}
